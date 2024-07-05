@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"hi"}
+    return {"hi ,polina server is working"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Optional[str] = None):
